@@ -62,4 +62,3 @@ public class Manager extends Employee {
         System.out.println("      [经理补充] 团队规模=" + teamSize + " 人");
     }
 }
-//（注：内容由AI生成）

@@ -5,7 +5,7 @@ package ExperimentLesson.lesson03;
  *
  * 实验要点：
  *  1. 父类拥有“私有”的域和方法（name、id、baseSalary、isValidId()），
- *     子类不能直接访问，必须通过 super 调用父类的受保护/公共访问器方法。
+ *     子类不能直接访问，必须通过 super 调用父类的受保护/公共访问å器方法。
  *  2. 父类拥有“protected”的域（department）和方法（getBonus()、getName()等），
  *     子类可以直接访问和覆盖（较高要求）。
  *  3. 提供“有参”和“无参”两种构造器，用来观察构造器调用次序。

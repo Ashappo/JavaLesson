@@ -42,4 +42,3 @@ public class Salesman extends Employee {
         return super.getBonus() + salesAmount * 10000 * 0.03;
     }
 }
-//（注：内容由AI生成）

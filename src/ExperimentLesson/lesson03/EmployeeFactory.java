@@ -51,4 +51,3 @@ public class EmployeeFactory {
         return new Salesman(name, id, baseSalary, department, salesAmount);
     }
 }
-//（注：内容由AI生成）

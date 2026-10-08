@@ -87,4 +87,3 @@ public class TestInheritance {
         System.out.println("\n全部测试完成。");
     }
 }
-//（注：内容由AI生成）
