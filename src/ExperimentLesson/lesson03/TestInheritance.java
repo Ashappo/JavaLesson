@@ -24,6 +24,8 @@ public class TestInheritance {
 
         System.out.println("========== 2. 构造器调用次序测试（无参） ==========");
         System.out.println("创建 Salesman 无参对象，观察调用次序：");
+        //1. 子类无参构造器隐式调super()，所以 "父类先于子类"；
+        //2. 父类无参构造器里又用this(参数) 转调了本类的有参构造器，所以 "有参先于无参"。
         Salesman s0 = new Salesman();
         System.out.println();
 
