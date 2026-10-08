@@ -52,4 +52,3 @@ public class Engineer extends Employee {
         return super.getBonus() + getBaseSalary() * (ratio - 0.10);
     }
 }
-//（注：内容由AI生成）
