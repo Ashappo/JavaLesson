@@ -1,4 +1,4 @@
-package TheoryLesson.lesson08.Interface;
+package TheoryLesson.lesson09.Interface;
 //示例2－－使用接口完成
 
 interface Person{

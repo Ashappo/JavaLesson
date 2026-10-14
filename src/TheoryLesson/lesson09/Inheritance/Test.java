@@ -1,4 +1,4 @@
-package TheoryLesson.lesson08.Inheritance;
+package TheoryLesson.lesson09.Inheritance;
 //示例1－－使用类的继承完成
 
 class Person{
