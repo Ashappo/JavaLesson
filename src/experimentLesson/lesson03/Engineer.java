@@ -44,11 +44,16 @@ public class Engineer extends Employee {
      */
     @Override
     protected double getBonus() {
-        double ratio = switch (skillLevel) {
-            case "高级" -> 0.30;
-            case "中级" -> 0.20;
-            default    -> 0.12;     // 初级
-        };
+        double ratio;
+        if ("高级".equals(skillLevel)) {
+            ratio = 0.30;
+        } else if ("中级".equals(skillLevel)) {
+            ratio = 0.20;
+        } else {
+            // 初级 / 其它
+            ratio = 0.12;
+        }
         return super.getBonus() + getBaseSalary() * (ratio - 0.10);
     }
+
 }
